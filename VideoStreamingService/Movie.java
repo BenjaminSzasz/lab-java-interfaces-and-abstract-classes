@@ -12,4 +12,9 @@ public class Movie extends Video{
 
         this.rating = rating;
     }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo()+ " rating:" + getRating();
+    }
 }

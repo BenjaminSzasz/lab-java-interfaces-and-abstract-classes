@@ -12,4 +12,9 @@ public class TvSeries extends Video{
 
         this.episodes = episodes;
     }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo() + " episodes:" + getEpisodes();
+    }
 }
