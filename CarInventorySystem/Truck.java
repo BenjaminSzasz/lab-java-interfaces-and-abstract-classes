@@ -1,7 +1,7 @@
 package CarInventorySystem;
 
 public class Truck extends Car{
-    double towingCapacity;
+    double towingCapacity ;
 
     public double getTowingCapacity() {
         return towingCapacity;

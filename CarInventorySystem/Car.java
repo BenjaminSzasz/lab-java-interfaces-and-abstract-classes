@@ -5,6 +5,7 @@ abstract class Car {
     private String model;
     private int mileage;
 
+
     public Car(String vinNumber, String make, String model, int mileage){
         this.vinNumber = vinNumber;
         this.make = make;

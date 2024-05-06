@@ -16,13 +16,13 @@ public class Main {
 
 
         BigDecimal bd1 = BigDecimal.valueOf(1.2345);
-        BigDecimal negative = bd1.negate();
-        BigDecimal rbd1 = negative.setScale(1,RoundingMode.HALF_EVEN);
+        BigDecimal negative = bd1.negate();//-1.2345
+        BigDecimal rbd1 = negative.setScale(1,RoundingMode.HALF_EVEN);//-1.2
         System.out.println(rbd1);//This method returns the negative value
 
         BigDecimal bd2 = BigDecimal.valueOf(-45.67);
-        BigDecimal positive = bd2.abs();
-        BigDecimal rbd2 = positive.setScale(1,RoundingMode.HALF_EVEN);
+        BigDecimal positive = bd2.abs();//45.67
+        BigDecimal rbd2 = positive.setScale(1,RoundingMode.HALF_EVEN);//45.7
         System.out.println(rbd2);//This method returns the absolute value
 
 

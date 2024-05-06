@@ -1,7 +1,7 @@
 package CarInventorySystem;
 
 public class UtilityVehicle extends Car{
-    boolean fourWheelDrive=true ;
+    boolean fourWheelDrive = true ;
 
     public boolean isFourWheelDrive() {
         return fourWheelDrive;

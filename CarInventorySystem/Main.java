@@ -6,13 +6,13 @@ public class Main extends Car {
     }
 
     public static void main(String[] args) {
-        Sedan auto = new Sedan("1234","Toyota","corolla", 12345);
+        Sedan auto = new Sedan("wn1234","Toyota","corolla", 12345);
         String info = auto.getInfo();
         System.out.println(info);
-        Truck truck = new Truck("6969","Toyota","hilux",20000,6000);
+        Truck truck = new Truck("wnb6969","Toyota","hilux",20000,6000);
         String infoo = truck.getInfo();
         System.out.println(infoo);
-        UtilityVehicle vehicle = new UtilityVehicle("696969","Iveco", "Daily", 100000);
+        UtilityVehicle vehicle = new UtilityVehicle("wnba696969","Iveco", "Daily", 100000);
         String infooo = vehicle.getInfo();
         System.out.println(infooo);
 
